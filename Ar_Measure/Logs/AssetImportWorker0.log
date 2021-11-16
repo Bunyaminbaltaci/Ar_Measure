@@ -1,0 +1,1759 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.17f1 (03b40fe07a36) revision 242703'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'tr' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/bnyok/Desktop/Ar_measure/Ar_Measure/Ar_Measure
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51092
+Successfully changed project path to: C:/Users/bnyok/Desktop/Ar_measure/Ar_Measure/Ar_Measure
+C:/Users/bnyok/Desktop/Ar_measure/Ar_Measure/Ar_Measure
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 277.16 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 7.70 ms.
+Initialize engine version: 2021.1.17f1 (03b40fe07a36)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bnyok/Desktop/Ar_measure/Ar_Measure/Ar_Measure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX550/550 Series (ID=0x699f)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   30.0.13025.5005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002907 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 134.19 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.336 seconds
+Domain Reload Profiling:
+	ReloadAssembly (13336ms)
+		BeginReloadAssembly (868ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 138.62 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 102]
+
+UnityEngine.UnityException: Creating asset at path Assets\XR\Loaders\Magic Leap Loader.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in C:\Users\bnyok\Desktop\Ar_measure\Ar_Measure\Ar_Measure\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\EditorUtilities.cs:102 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeLoaderFromMetadata (System.String packageName, System.Collections.Generic.List`1[T] loaderMetadatas) [0x0004e] in C:\Users\bnyok\Desktop\Ar_measure\Ar_Measure\Ar_Measure\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:152 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00001] in C:\Users\bnyok\Desktop\Ar_measure\Ar_Measure\Ar_Measure\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:129 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in C:\Users\bnyok\Desktop\Ar_measure\Ar_Measure\Ar_Measure\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:118 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in C:\Users\bnyok\Desktop\Ar_measure\Ar_Measure\Ar_Measure\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:87 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in C:\Users\bnyok\Desktop\Ar_measure\Ar_Measure\Ar_Measure\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:50 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1995ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1697ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (496ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (822ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3716 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4162.
+Total: 4.420100 ms (FindLiveObjects: 0.349700 ms CreateObjectMapping: 0.101400 ms MarkObjects: 3.858100 ms  DeleteObjects: 0.109500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Measurement_controler.cs
+  artifactKey: Guid(6eb1f5cb24b39e74491ad430b251192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Measurement_controler.cs using Guid(6eb1f5cb24b39e74491ad430b251192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d5d2e4da80b20b5fb3744f70c16f3c') in 0.053643 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Microsoft has transitioned support of Windows MR devices to OpenXR in Unity 2021, and recommends using Unity's OpenXR plugin. As such, this Windows XR plugin is marked as deprecated and will be removed in the 2021.2 release. It will continue to be supported in the 2020 LTS.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.XR.WindowsMR.XRPackage:.cctor () (at Library/PackageCache/com.unity.xr.windowsmr@5.3.0/Editor/WindowsMRPackageMetadata.cs:27)
+System.Reflection.MonoCMethod:InternalInvoke (object,object[])
+System.RuntimeType:CreateInstanceMono (bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,System.Threading.StackCrawlMark&)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:81)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.windowsmr@5.3.0/Editor/WindowsMRPackageMetadata.cs Line: 27)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.943 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2943ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2637ms)
+			LoadAssemblies (242ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (686ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1456ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (476ms)
+				ProcessInitializeOnLoadAttributes (934ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.81 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.1 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4166.
+Total: 9.758300 ms (FindLiveObjects: 0.695900 ms CreateObjectMapping: 0.338600 ms MarkObjects: 8.603500 ms  DeleteObjects: 0.117600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.207098 seconds.
+  path: Assets/Scripts/Measurement_controler.cs
+  artifactKey: Guid(6eb1f5cb24b39e74491ad430b251192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Measurement_controler.cs using Guid(6eb1f5cb24b39e74491ad430b251192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782d1e81159a857689e8b87aa52b70de') in 0.031058 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1874ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1616ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (627ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (593ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.2 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4170.
+Total: 4.956900 ms (FindLiveObjects: 0.368400 ms CreateObjectMapping: 0.173500 ms MarkObjects: 4.358200 ms  DeleteObjects: 0.055000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83.845072 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdebda5de34a76e516d6ac32ddd83c1c') in 0.134284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.614802 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bf8511dc48a12034511c00b54e17d2') in 0.020539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.166994 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19961d259fb8b2935fdf786d8daf8113') in 0.035935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.566370 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9381fb6384bcaaa233942f3106510cdd') in 0.015379 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016013 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.717 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5717ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (5365ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (995ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (3548ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (72ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (294ms)
+				ProcessInitializeOnLoadAttributes (3141ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.88 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.4 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4182.
+Total: 18.300100 ms (FindLiveObjects: 1.202400 ms CreateObjectMapping: 0.984000 ms MarkObjects: 16.040000 ms  DeleteObjects: 0.072400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85.816971 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aec511491b8613b17a7cb2ac7d274e') in 0.609638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.409947 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df0b5388d8ab09f679f8d94428354c1') in 0.254936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.398597 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a15c50ada3a66f43f97938dfdf4118') in 1.048804 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.168383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.416 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2417ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (2113ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (757ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (859ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (230ms)
+				ProcessInitializeOnLoadAttributes (595ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4187.
+Total: 8.092000 ms (FindLiveObjects: 0.404900 ms CreateObjectMapping: 0.120000 ms MarkObjects: 7.515200 ms  DeleteObjects: 0.050100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.712 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2712ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2266ms)
+			LoadAssemblies (235ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (904ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (856ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (662ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4191.
+Total: 5.989300 ms (FindLiveObjects: 0.634400 ms CreateObjectMapping: 0.254100 ms MarkObjects: 5.028300 ms  DeleteObjects: 0.070600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.064 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2065ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1770ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (610ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (690ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.94 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4195.
+Total: 4.967100 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.100700 ms MarkObjects: 4.475600 ms  DeleteObjects: 0.054600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 698.300025 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766c2e894e9d47a4d619b8af10835b1d') in 0.092706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.599156 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b64b6fda9346c3235d9e2b85fcc3d6') in 0.021307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.979280 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568c4a8ca5e657e1c137ceaf58d1b40e') in 0.016672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.491236 seconds.
+  path: Assets/Prefab/object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef5723eee782636f3d5873e35f3c440') in 0.027130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.237181 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(22409108270b1ce44b432d3488a6e8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(22409108270b1ce44b432d3488a6e8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce4847d42d32bdb0270fa72805f97c9') in 0.009260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.473426 seconds.
+  path: Assets/Prefab/dot.prefab
+  artifactKey: Guid(f039bd8acb7081348b162a5ccd1d4164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/dot.prefab using Guid(f039bd8acb7081348b162a5ccd1d4164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f657fabecc9ca6be8bb210c190676d') in 0.043745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.838893 seconds.
+  path: Assets/Scripts/Measurement_controler.cs
+  artifactKey: Guid(6eb1f5cb24b39e74491ad430b251192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Measurement_controler.cs using Guid(6eb1f5cb24b39e74491ad430b251192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478b4cb89836826aba65e4c287e4fb86') in 0.003942 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1584ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1343ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4200.
+Total: 4.334600 ms (FindLiveObjects: 0.337900 ms CreateObjectMapping: 0.102000 ms MarkObjects: 3.844500 ms  DeleteObjects: 0.049100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.482076 seconds.
+  path: Assets/Prefab/Object.prefab
+  artifactKey: Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Object.prefab using Guid(cfaa81c8e9ad1ec4ca18ff7daacbe463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6538223c6f36588c6eed5270dffc5d3') in 0.109422 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.049 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2050ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1770ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (574ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (701ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4205.
+Total: 5.629900 ms (FindLiveObjects: 0.535100 ms CreateObjectMapping: 0.121300 ms MarkObjects: 4.910000 ms  DeleteObjects: 0.062200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4442ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (4150ms)
+			LoadAssemblies (198ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (536ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (2861ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (2690ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.04 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4209.
+Total: 6.025800 ms (FindLiveObjects: 0.367100 ms CreateObjectMapping: 0.132800 ms MarkObjects: 5.470100 ms  DeleteObjects: 0.054500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015356 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4924ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (4491ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1026ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (2659ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (2406ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (7ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4213.
+Total: 6.047300 ms (FindLiveObjects: 0.404600 ms CreateObjectMapping: 0.241400 ms MarkObjects: 5.347600 ms  DeleteObjects: 0.052400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
